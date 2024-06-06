@@ -1,15 +1,15 @@
 ---
-import Layout from '@layouts/Layout.astro';  // Utilizando import.meta.env.BASE_URL
-import data from 'data.json';  // Ruta relativa al archivo data.json
-import 'assets/scss/astro-ecommerce.scss';  // Utilizando import.meta.env.BASE_URL
-import 'assets/scss/auto-index.css';  // Utilizando import.meta.env.BASE_URL
-import CardCategory from '@components/products/cardCategory';  // Utilizando import.meta.env.BASE_URL
-import ProductFeature from '@components/products/productFeature';  // Utilizando import.meta.env.BASE_URL
-import Navbar from '@components/navbar';  // Utilizando import.meta.env.BASE_URL
-import Footer from '@components/footer';  // Utilizando import.meta.env.BASE_URL
-import TestimonialsFade from '@components/promo/testimonialsFade';  // Utilizando import.meta.env.BASE_URL
-import PromoSectionLarge from '@components/promo/promoSectionLarge';  // Utilizando import.meta.env.BASE_URL
-import CategoryFilters from '@components/products/categoryFilters';  // Utilizando import.meta.env.BASE_URL
+import Layout from '../layouts/Layout.astro';
+import data from '../../public/data.json';
+import '/../../assets/scss/astro-ecommerce.scss';
+import '/../../assets/scss/auto-index.css'
+import CardCategory from '/../components/products/cardCategory';
+import ProductFeature from '/../components/products/productFeature';
+import Navbar from '/./components/navbar';
+import Footer from '/../components/footer';
+import TestimonialsFade from '/../components/promo/testimonialsFade';
+import PromoSectionLarge from '/../components/promo/promoSectionLarge';
+import CategoryFilters from '/../components/products/categoryFilters';
 
 ---
 
