@@ -67,7 +67,7 @@ export default function ProductOverview({
               className="btn btn-dark btn-lg mt-5"
               href="shopping-cart"
             >
-              Agregar al carrito
+              Agregar al carrito.
             </a>
           </div>
         </div>
