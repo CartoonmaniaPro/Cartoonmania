@@ -57,6 +57,7 @@
   }
   
   .subtitle {
+    width: 90%;
     font-size: 16px; /* Reducir el tamaño del subtítulo para dispositivos móviles */
   }
   .img-background-main {
