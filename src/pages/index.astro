@@ -10,6 +10,7 @@ import Footer from '../components/footer';
 import TestimonialsFade from '../components/promo/testimonialsFade';
 import PromoSectionLarge from '../components/promo/promoSectionLarge';
 import CategoryFilters from '../components/products/categoryFilters';
+
 ---
 
 <Layout title="Cartoonmania">
@@ -18,7 +19,7 @@ import CategoryFilters from '../components/products/categoryFilters';
     <PromoSectionLarge 
       title={"Collection is here"}
       full_description={data.products[0].full_description}  
-      pageHeaderBgImg={"../images/heart.png"}
+      pageHeaderBgImg={`${import.meta.env.BASE_URL}images/heart.png`}
       pageHeaderMinVh="90vh"
     />
     <div class="container my-5">

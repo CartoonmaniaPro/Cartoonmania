@@ -160,7 +160,7 @@ export default function ProductOverview({
                 {data.products.slice(0, 6).map(product => 
                   <div class="col-md-6 col-lg-4">
                     <CardProduct 
-                      thumb_src = {product.thumb_src}
+                      thumb_src = { product.thumb_src}
                       thumb_alt = {product.thumb_alt}
                       title = {product.title}
                       description = {product.description}

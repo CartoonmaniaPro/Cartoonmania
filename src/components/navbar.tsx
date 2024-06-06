@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg blur border-radius-sm top-0 z-index-3 shadow position-sticky py-3 start-0 end-0">
       <div className="container px-1">
-        <a className="navbar-brand font-weight-bolder ms-lg-0 " href="/astro-ecommerce/">Cartoonmania</a>
+        <a className="navbar-brand font-weight-bolder ms-lg-0 " href="/">Cartoonmania</a>
         <button className="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon mt-2">
             <span className="navbar-toggler-bar bar1"></span>
@@ -16,7 +16,7 @@ const Navbar = () => {
          
   
             <li className="nav-item">
-              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="/astro-ecommerce/shopping-cart">
+              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="/shopping-cart">
               <i className="fa-solid text-lg fa-cart-shopping"></i>
               </a>
             </li>

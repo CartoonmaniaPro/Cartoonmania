@@ -19,7 +19,6 @@ export default function ProductOverview({
   rating,
 }: Props) {
   const handleAddToLocalStorage = () => {
-    console.log("hola");
     const item = {
       title: title,
       price: price,
@@ -37,7 +36,7 @@ export default function ProductOverview({
           <div className="col-12 col-lg-6 d-flex justify-content-center ">
             <img
               className="w-70 rounded-2"
-              src={`${import.meta.env.BASE_URL}${images}`}
+              src={images}
               alt="producto"
             />
           </div>
@@ -66,7 +65,7 @@ export default function ProductOverview({
 
             <a
               className="btn btn-dark btn-lg mt-5"
-              href="/astro-ecommerce/shopping-cart"
+              href="/shopping-cart"
             >
               Agregar al carrito
             </a>

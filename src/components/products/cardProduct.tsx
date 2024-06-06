@@ -23,7 +23,7 @@ export default function CardProduct({
   position,
 }: Props) {
   const classList = "card-body " + "text-" + position;
-  const url = `/astro-ecommerce/products/${title}`;
+  const url = `/products/${title}`;
 
   return (
     <>
@@ -32,8 +32,8 @@ export default function CardProduct({
           <div className="container-img">
             <img
               className="img-product p-4 "
-              src={`${import.meta.env.BASE_URL}${thumb_src}`}
-              alt={thumb_alt}
+              src={thumb_src}
+              alt={thumb_src}
             />
           </div>
           <div className={classList}>

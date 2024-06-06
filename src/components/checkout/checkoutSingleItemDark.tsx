@@ -22,7 +22,7 @@ export default function CheckoutSingleItem({
       <div className="card card-product card-plain d-flex mb-4"> 
         <div className="row">
           <div className="col-4 col-md-2">
-            <img className="w-100 max-height-100 rounded-3" src={`${import.meta.env.BASE_URL}${thumb_src}`} alt={thumb_alt} />
+            <img className="w-100 max-height-100 rounded-3" src={thumb_src} alt={thumb_alt} />
           </div>
           <div className="col-5 col-md-6">
             <h5 className="text-base mb-1">{title}</h5>
@@ -33,9 +33,9 @@ export default function CheckoutSingleItem({
           <div className="col-2">
             <div className="d-block d-md-flex align-items-center">
               <button className="btn btn-link text-dark d-block d-md-none"><i className="fas fa-pen"></i></button>
-              <button className="btn btn-dark btn-sm d-none d-md-block">Edit</button>
+              <button className="btn btn-dark btn-sm d-none d-md-block">Editar</button>
               <button className="btn btn-link text-dark d-block d-md-none"><i className="fas fa-trash"></i></button>
-              <button className="btn btn-link text-dark d-none d-md-block">Remove</button>
+              <button className="btn btn-link text-dark d-none d-md-block">Eliminar</button>
             </div>
           </div>
         </div>
