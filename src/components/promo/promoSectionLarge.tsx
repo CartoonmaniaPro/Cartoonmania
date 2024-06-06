@@ -13,32 +13,30 @@ export default function TestimonialsFade({
   pageHeaderMinVh,
   pageHeaderRadius,
 }: Props) {
-
   const styles = {
     pageHeader: {
-      backgroundImage: 'url(' + pageHeaderBgImg + ')',
+      backgroundImage: "url(" + pageHeaderBgImg + ")",
       minHeight: pageHeaderMinVh,
-      borderRadius: pageHeaderRadius
+      borderRadius: pageHeaderRadius,
     },
   } as const;
 
   return (
     <>
-      <section className="mb-8">
-        <div className="page-header py-5 py-md-0" style={styles.pageHeader}>
-          <span className="mask bg-black opacity-6"></span>
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-8 col-sm-9 text-center mx-auto">
-                <h1 className="text-white mb-4">{title}</h1>
-                <p className="lead text-white mb-sm-6 mb-4">{full_description}</p>
-                <button className="btn btn-white btn-lg">Explore New Collection</button>
-              </div>
-            </div>
-          </div>
+      <section
+        className="mb-8 box-landing "
+        style={{ backgroundColor: "#e5e3e1", height: "100vh" }}
+      >
+        <div className="d-flex flex-column gap-3 justify-content-center align-items-center">
+          <p className="title ">CARTOONMANIA</p>
+          <p className="subtitle">
+            Nos enfocamos en ofrecer productos de cartón reciclado de alta
+            calidad, priorizando la sostenibilidad y el compromiso con el medio
+            ambiente.
+          </p>
         </div>
+        <img src={pageHeaderBgImg} className="img-background-main"></img>
       </section>
     </>
   );
-};
-
+}

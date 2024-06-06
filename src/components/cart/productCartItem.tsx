@@ -33,12 +33,12 @@ export default function CartItem({
            {(stock) ? 
             <>
               <i className="fas fa-check text-lg text-success"></i>
-              <p className="mb-0 ms-2 text-sm">In Stock</p>
+              <p className="mb-0 ms-2 text-sm">En Stock</p>
             </>
             :
             <>
               <i className="fas fa-minus-circle text-lg"></i>
-              <p className="mb-0 ms-2 text-sm">Out of Stock</p>
+              <p className="mb-0 ms-2 text-sm">Sin más Stock</p>
             </>
            }
           </div>

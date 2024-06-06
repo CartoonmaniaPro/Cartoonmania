@@ -2,7 +2,7 @@
   "products": [
     {
       "id": "01",
-      "thumb_src": "/images/suit-3.jpg",
+      "thumb_src": "/images/prod-1.jpeg",
       "thumb_alt": "watch-image",
       "images": [
         {
@@ -22,21 +22,16 @@
           "alt": "fourth_image"
         }
       ],
-      "color": "8 colors",
-      "colors": [
-        "red", 
-        "blue", 
-        "green"
-      ],
-      "title": "Basic Starter Pack",
-      "price": 399,
-      "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-      "full_description": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out.",
+      "colors": ["red", "blue", "green"],
+      "title": "Florero",
+      "price": 300,
+      "description": "La combinación perfecta entre estilo y responsabilidad ambiental para decorar tu hogar de manera eco-friendly.",
+      "full_description": "Descubre la elegancia sostenible con nuestro florero de cartón reciclado. Este florero combina diseño moderno y responsabilidad ambiental, ofreciendo una opción única y ecológica para decorar tu hogar. Hecho con cartón reciclado de alta calidad, es ligero, duradero y perfecto para añadir un toque de naturaleza consciente a cualquier espacio.",
       "details": "There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn.",
       "highlights": [
-        "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-        "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics",
-        "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
+        "Colaboramos con empresas de reciclaje para recolectar, clasificar y preparar el cartón para su reutilización.",
+        "Promovemos la reutilización del cartón y reducir la cantidad de desperdicio que termina en los vertederos.",
+        "Conectamos a artistas y artesanos que crean productos a partir de cartón reciclado con consumidores globales."
       ],
       "features": [
         "Multiple strap configuration",
@@ -61,15 +56,15 @@
         "Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
       },
       "featuresDetails": {
-        "Origin": "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-        "Material": "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics.",
-        "Dimensions": "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
+        "Origin": "Colaboramos con empresas de reciclaje para recolectar, clasificar y preparar el cartón para su reutilización.",
+        "Material": "Promovemos la reutilización del cartón y reducir la cantidad de desperdicio que termina en los vertederos.",
+        "Dimensions": "Conectamos a artistas y artesanos que crean productos a partir de cartón reciclado con consumidores globales"
       },
       "stock": true
     },
     {
       "id": "02",
-      "thumb_src": "/images/suit-1.jpg",
+      "thumb_src": "/images/prod-2.jpeg",
       "thumb_alt": "watch-image",
       "images": [
         {
@@ -91,17 +86,22 @@
       ],
       "color": "Black",
       "colors": ["black", "green", "white"],
-      "title": "Pink Blouse",
+      "title": "Reloj de pie",
       "price": 1490,
       "rating": 5,
       "reviews": 117,
-      "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-      "full_description": "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming `Charcoal Gray` limited release.",
+      "description": "Descubre la fusión perfecta entre estilo vintage y sostenibilidad con nuestro reloj de pie de cartón reciclado. Con detalles meticulosos y un diseño único, este reloj añade un toque de encanto eco-amigable a tu hogar.",
+      "full_description": "Imagina un reloj de pie que fusiona la elegancia del diseño clásico con la innovación del cartón reciclado. Nuestro reloj de pie de cartón es una obra maestra de sostenibilidad y estilo. Con su estructura robusta y detallada, este reloj evoca una sensación de encanto vintage con un toque moderno y eco-amigable. Cada detalle, desde la esfera cuidadosamente elaborada hasta las manecillas precisas, refleja nuestro compromiso con la artesanía de calidad y la responsabilidad ambiental. Convierte tu hogar en un espacio único y sostenible con nuestro reloj de pie de cartón, donde la belleza y la conciencia se unen en perfecta armonía.",
       "features": [
         "Multiple strap configuration",
         "Water Resistant",
         "Stainless strap loops",
         "Ultra-soft 100% cotton"
+      ],
+      "highlights": [
+        "Colaboramos con empresas de reciclaje para recolectar, clasificar y preparar el cartón para su reutilización.",
+        "Promovemos la reutilización del cartón y reducir la cantidad de desperdicio que termina en los vertederos.",
+        "Conectamos a artistas y artesanos que crean productos a partir de cartón reciclado con consumidores globales."
       ],
       "size": "Medium",
       "sizes": {
@@ -129,7 +129,7 @@
     },
     {
       "id": "03",
-      "thumb_src": "/images/suit-2.jpg",
+      "thumb_src": "/images/prod-3.jpeg",
       "thumb_alt": "iMac-image",
       "images": [
         {
@@ -151,9 +151,10 @@
       ],
       "color": "Yellow",
       "colors": ["SpaceGray"],
-      "title": "Premium Suit",
-      "description": "There’s nothing I really wanted to do in life that I wasn’t able to get good at.",
-      "price": 1399,
+      "title": "Esquinero",
+      "description": "Descubre la elegancia sostenible con nuestro esquinero de cartón reciclado. ",
+      "full_description": "Explora la innovación en diseño y sostenibilidad con nuestro esquinero de cartón reciclado. Este ingenioso mueble combina funcionalidad y estilo en un paquete eco-amigable. Con su construcción resistente y detalles cuidadosamente elaborados, nuestro esquinero ofrece una solución versátil para organizar y embellecer cualquier espacio. Aporta un toque moderno y consciente al decorar tu hogar con nuestro esquinero de cartón, donde la elegancia se encuentra con la responsabilidad ambiental.",
+      "price": 800,
       "size": "Large",
       "sizes": {
         "XS": 3,
@@ -162,6 +163,11 @@
         "L": 0,
         "XL": 6
       },
+      "highlights": [
+        "Colaboramos con empresas de reciclaje para recolectar, clasificar y preparar el cartón para su reutilización.",
+        "Promovemos la reutilización del cartón y reducir la cantidad de desperdicio que termina en los vertederos.",
+        "Conectamos a artistas y artesanos que crean productos a partir de cartón reciclado con consumidores globales."
+      ],
       "data": {
         "Design": "If everything I did failed - which it doesn't, it actually succeeds - just the fact that I'm willing to fail is an inspiration. People are so scared to lose that they don't even try. Like, one thing people can't say is that I'm not trying, and I'm not trying my hardest, and I'm not trying to do the best way I know how.",
         "Material": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it? People are so scared to lose that they don't even try.",
@@ -172,12 +178,18 @@
     },
     {
       "id": "04",
-      "thumb_src": "/images/suit-5.jpg",
+      "thumb_src": "/images/prod-4.jpeg",
       "thumb_alt": "iPhone_thumb",
       "color": "Blue",
-      "title": "iPhone",
-      "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-      "price": 1599,
+      "title": "Triple cajonera",
+      "description": "Optimiza tu espacio con estilo y conciencia ambiental gracias a nuestro cajonero de cartón reciclado. La solución de almacenamiento perfecta para un hogar moderno y sostenible.",
+      "full_description": "Experimenta la practicidad y la sostenibilidad con nuestro cajonero de cartón reciclado. Este versátil mueble ofrece soluciones de almacenamiento inteligentes en un diseño eco-amigable. Con su construcción duradera y detalles funcionales, nuestro cajonero es perfecto para organizar tu espacio con estilo y conciencia ambiental. Añade un toque de modernidad sostenible a tu hogar con nuestro cajonero de cartón, donde la innovación se une a la responsabilidad ambiental.",
+      "price": 1200,
+      "highlights": [
+        "Colaboramos con empresas de reciclaje para recolectar, clasificar y preparar el cartón para su reutilización.",
+        "Promovemos la reutilización del cartón y reducir la cantidad de desperdicio que termina en los vertederos.",
+        "Conectamos a artistas y artesanos que crean productos a partir de cartón reciclado con consumidores globales."
+      ],
       "size": "Small",
       "sizes": {
         "XS": 3,
@@ -187,6 +199,130 @@
         "XL": 6
       },
       "stock": false
+    },
+    {
+      "id": "01",
+      "thumb_src": "/images/prod-5.jpg",
+      "thumb_alt": "watch-image",
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1611930021592-a8cfd5319ceb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+          "alt": "first_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+          "alt": "second_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1513116476489-7635e79feb27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+          "alt": "third_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+          "alt": "fourth_image"
+        }
+      ],
+      "colors": ["red", "blue", "green"],
+      "title": "Mesa de centro",
+      "price": 678,
+      "description": "Eleva tu sala de estar con nuestra mesa de centro de cartón reciclado. Un diseño moderno y sostenible para un hogar eco-consciente.",
+      "full_description": "Descubre la fusión perfecta entre funcionalidad y sostenibilidad con nuestra mesa de centro de cartón reciclado. Con un diseño moderno y elegante, este mueble es una declaración de estilo consciente. Fabricado con cartón reciclado de alta calidad, ofrece una superficie resistente y duradera para tus necesidades diarias. Añade un toque de innovación y conciencia ambiental a tu sala de estar con nuestra mesa de centro de cartón, donde la belleza se encuentra con la responsabilidad ambiental.",
+      "details": "There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn.",
+      "highlights": [
+        "Colaboramos con empresas de reciclaje para recolectar, clasificar y preparar el cartón para su reutilización.",
+        "Promovemos la reutilización del cartón y reducir la cantidad de desperdicio que termina en los vertederos.",
+        "Conectamos a artistas y artesanos que crean productos a partir de cartón reciclado con consumidores globales."
+      ],
+      "features": [
+        "Multiple strap configuration",
+        "Water Resistant",
+        "Stainless strap loops",
+        "Ultra-soft 100% cotton"
+      ],
+      "rating": 4,
+      "reviews": 117,
+      "size": "Small",
+      "sizes": {
+        "XS": 3,
+        "S": 0,
+        "M": 1,
+        "L": 1213,
+        "XL": 6
+      },
+      "data": {
+        "Features": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you.",
+        "Care": "It really matters and then like it really doesn`t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn`t matter. Because it's about motivating the doers. Because I`m here to follow my dreams and inspire other people to follow their dreams, too.",
+        "Shipping": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
+        "Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
+      },
+      "featuresDetails": {
+        "Origin": "Colaboramos con empresas de reciclaje para recolectar, clasificar y preparar el cartón para su reutilización.",
+        "Material": "Promovemos la reutilización del cartón y reducir la cantidad de desperdicio que termina en los vertederos.",
+        "Dimensions": "Conectamos a artistas y artesanos que crean productos a partir de cartón reciclado con consumidores globales"
+      },
+      "stock": true
+    },
+    {
+      "id": "01",
+      "thumb_src": "/images/prod-6.jpeg",
+      "thumb_alt": "watch-image",
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1611930021592-a8cfd5319ceb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+          "alt": "first_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+          "alt": "second_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1513116476489-7635e79feb27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+          "alt": "third_image"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+          "alt": "fourth_image"
+        }
+      ],
+      "colors": ["red", "blue", "green"],
+      "title": "Estante",
+      "price": 1455,
+      "description": "Organiza con estilo y sostenibilidad gracias a nuestro estante de cartón reciclado. Funcionalidad moderna para un hogar eco-consciente.",
+      "full_description": "Organiza con estilo y conciencia ambiental con nuestro estante de cartón reciclado. Este versátil mueble combina funcionalidad y sostenibilidad en un diseño moderno y elegante. Fabricado con cartón reciclado de alta calidad, ofrece una solución de almacenamiento resistente y duradera para tu hogar. Añade un toque de innovación y responsabilidad ambiental a tu espacio con nuestro estante de cartón, donde la belleza se encuentra con la sostenibilidad.",
+      "details": "There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn.",
+      "highlights": [
+        "Colaboramos con empresas de reciclaje para recolectar, clasificar y preparar el cartón para su reutilización.",
+        "Promovemos la reutilización del cartón y reducir la cantidad de desperdicio que termina en los vertederos.",
+        "Conectamos a artistas y artesanos que crean productos a partir de cartón reciclado con consumidores globales."
+      ],
+      "features": [
+        "Multiple strap configuration",
+        "Water Resistant",
+        "Stainless strap loops",
+        "Ultra-soft 100% cotton"
+      ],
+      "rating": 4,
+      "reviews": 117,
+      "size": "Small",
+      "sizes": {
+        "XS": 3,
+        "S": 0,
+        "M": 1,
+        "L": 1213,
+        "XL": 6
+      },
+      "data": {
+        "Features": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you.",
+        "Care": "It really matters and then like it really doesn`t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn`t matter. Because it's about motivating the doers. Because I`m here to follow my dreams and inspire other people to follow their dreams, too.",
+        "Shipping": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
+        "Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
+      },
+      "featuresDetails": {
+        "Origin": "Colaboramos con empresas de reciclaje para recolectar, clasificar y preparar el cartón para su reutilización.",
+        "Material": "Promovemos la reutilización del cartón y reducir la cantidad de desperdicio que termina en los vertederos.",
+        "Dimensions": "Conectamos a artistas y artesanos que crean productos a partir de cartón reciclado con consumidores globales"
+      },
+      "stock": true
     }
   ],
   "categories": [
@@ -353,14 +489,6 @@
       "phoneNumber": "(307) 682-8835"
     }
   ],
-  "shoppingCart": [
-    "01", 
-    "02", 
-    "03"
-  ],
-  "shoppingCart2": [ 
-    "02", 
-    "03",
-    "04"
-  ]
+  "shoppingCart": ["01", "02", "03"],
+  "shoppingCart2": ["02", "03", "04"]
 }

@@ -40,13 +40,13 @@ export default function CheckoutSummary({
             <div className="mt-2 mb-4 position-relative text-center">
               <p className="text-sm font-weight-bold mb-2 text-secondary text-border d-inline z-index-2 bg-white px-3">or</p>
             </div>
-            <h5 className="mb-4">Contact information</h5>
+            <h5 className="mb-4">Informacion de contacto</h5>
             <div className="form-group">
-              <label>Email address</label>
+              <label>Email</label>
               <input type="email" className="form-control" placeholder="Enter your email address" />
             </div>
             <div className="form-group">
-              <label>Phone number</label>
+              <label>Télefono de contacto</label>
               <input type="text" className="form-control" placeholder="Enter your phone number" />
             </div>
             
@@ -55,10 +55,10 @@ export default function CheckoutSummary({
             <ShippingInfo />
             
 
-            <button className="btn btn-dark w-100 mt-4">Continue</button>        
+            <button className="btn btn-dark w-100 mt-4">Continuar</button>        
           </div>
           <div className="col-12 col-lg-6 p-lg-5">
-            <small className="opacity-6">Amount</small>
+            <small className="opacity-6">Cantidad</small>
             <h3 className="mb-5">${subtotalCheckout.toLocaleString()}</h3>
             {products.map((product, i) => 
                 <CheckoutSingleItemDark

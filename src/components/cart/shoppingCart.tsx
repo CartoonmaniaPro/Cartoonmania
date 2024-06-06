@@ -27,9 +27,8 @@ export default function ShoppingCart({
 
   return (
     <>
-      <div className="container mt-5">
-        <h2 className="mb-3 text-center">Shopping Cart</h2>
-        <h5 className="text-center mb-5">You are eligible for Free Shipping.</h5>
+      <div className="container my-5">
+        <h2 className="mb-3 text-center pb-5">Tu carrito de compras!</h2>
         <div className="row">
           <div className="col-12 col-lg-7">
             {products.map((product, i) => 
@@ -42,7 +41,6 @@ export default function ShoppingCart({
                   thumb_alt={product.thumb_alt}
                   title={product.title}
                   color={product.color}
-                  size={product.size}
                   price={product.price}
                   stock={product.stock}
                 />
@@ -53,20 +51,20 @@ export default function ShoppingCart({
           <div className="col-12 col-lg-5 mt-5 mt-lg-0">
             <div className="card shadow-xs border bg-gray-100">
               <div className="card-body p-lg-5">
-                <h5 className="mb-4">Order Summary</h5>
+                <h5 className="mb-4">Resumen de tu orden </h5>
                 <OrderSummary 
                   subtotal={subtotal}
                 />
-                <button className="btn btn-dark btn-lg w-100">Checkout</button>
-                <button className="btn btn-white btn-lg w-100">Continue Shopping</button>
-                <p className="text-center">Tax included. Shipping calculated at checkout.</p>
+                <a className="btn btn-dark btn-lg w-100" href='/astro-ecommerce/checkout-form/'>Pagar</a>
+                <a className="btn btn-white btn-lg w-100" href='/astro-ecommerce/'>Continuar comprando</a>
+               
               </div>
             </div>
             <p className="d-flex align-items-center justify-content-center text-body mt-4"> 
               <svg className="me-2" width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M3.21652 6.14286H7.78795V4.42857C7.78795 3.79762 7.56473 3.25893 7.1183 2.8125C6.67188 2.36607 6.13318 2.14286 5.50223 2.14286C4.87128 2.14286 4.33259 2.36607 3.88616 2.8125C3.43973 3.25893 3.21652 3.79762 3.21652 4.42857V6.14286ZM10.6451 7V12.1429C10.6451 12.381 10.5618 12.5833 10.3951 12.75C10.2284 12.9167 10.026 13 9.78795 13H1.21652C0.978423 13 0.776042 12.9167 0.609375 12.75C0.442708 12.5833 0.359375 12.381 0.359375 12.1429V7C0.359375 6.7619 0.442708 6.55952 0.609375 6.39286C0.776042 6.22619 0.978423 6.14286 1.21652 6.14286H1.50223V4.42857C1.50223 3.33333 1.89509 2.39286 2.6808 1.60714C3.46652 0.821428 4.40699 0.428571 5.50223 0.428571C6.59747 0.428571 7.53795 0.821428 8.32366 1.60714C9.10938 2.39286 9.50223 3.33333 9.50223 4.42857V6.14286H9.78795C10.026 6.14286 10.2284 6.22619 10.3951 6.39286C10.5618 6.55952 10.6451 6.7619 10.6451 7Z" fill="#495057"/>
               </svg>
-              Secured Payment with:
+              Pago seguros con:
             </p>
             <div className="d-flex justify-content-center">
               <svg className="me-2" width="31" height="21" viewBox="0 0 31 21" fill="none" xmlns="http://www.w3.org/2000/svg">

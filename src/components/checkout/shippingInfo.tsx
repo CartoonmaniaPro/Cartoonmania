@@ -9,26 +9,26 @@ export default function OrderSummary({
   return (
     <>
       <div className="form-group">
-        <label>Address</label>
-        <input type="text" className="form-control" placeholder="Street, no" />
+        <label>Dirección</label>
+        <input type="text" className="form-control" placeholder="Tu dirección" />
       </div>
       <div className="row">
         <div className="col-4">
           <div className="form-group">
-            <label>City</label>
-            <input type="text" className="form-control" placeholder="Enter city" />
+            <label>Ciudad</label>
+            <input type="text" className="form-control" placeholder="Ciudad" />
           </div>
         </div>
         <div className="col-4">
           <div className="form-group">
-            <label>State</label>
-            <input type="text" className="form-control" placeholder="Enter your country" />
+            <label>Estado</label>
+            <input type="text" className="form-control" placeholder="Estado" />
           </div>
         </div>
         <div className="col-4">
           <div className="form-group">
-            <label>Postal Code</label>
-            <input type="text" className="form-control" placeholder="Your postal code" />
+            <label>Codigo Postal</label>
+            <input type="text" className="form-control" placeholder="Codigo postal" />
           </div>
         </div>
       </div>
