@@ -67,7 +67,7 @@ export default function ProductOverview({
               className="btn btn-dark btn-lg mt-5"
               href={`${import.meta.env.BASE_URL}` + "shopping-cart"}
             >
-              Agregar al carrito
+              Agregar al carrito.
             </a>
           </div>
         </div>
