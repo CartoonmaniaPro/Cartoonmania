@@ -36,7 +36,7 @@ export default function ProductOverview({
           <div className="col-12 col-lg-6 d-flex justify-content-center ">
             <img
               className="w-70 rounded-2"
-              src={images}
+              src={`${import.meta.env.BASE_URL}` + images}
               alt="producto"
             />
           </div>
@@ -65,7 +65,7 @@ export default function ProductOverview({
 
             <a
               className="btn btn-dark btn-lg mt-5"
-              href="/shopping-cart"
+              href="shopping-cart"
             >
               Agregar al carrito
             </a>
