@@ -23,7 +23,7 @@ export default function CardProduct({
   position,
 }: Props) {
   const classList = "card-body " + "text-" + position;
-  const url = `Cartoonmania/products/${title}`;
+  const url = `/products/${title}`;
 
   return (
     <>
