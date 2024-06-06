@@ -7,5 +7,6 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [react()],
   site: 'https://CartoonmaniaPro.github.io',
+  base:'Cartoonmania/'
 
 });
