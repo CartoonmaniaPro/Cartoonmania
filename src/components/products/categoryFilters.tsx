@@ -57,19 +57,19 @@ export default function ProductOverview({
                     </div>
                     <div className="form-check justify-content-start ">
                       <input className="form-check-input me-2" type="checkbox" value="" id="customCheck2" />
-                      <label className="custom-control-label mb-0">Burberry</label>
+                      <label className="custom-control-label mb-0">Alexander Jimenez</label>
                     </div>
                     <div className="form-check justify-content-start ">
                       <input className="form-check-input me-2" type="checkbox" value="" id="customCheck3" checked />
-                      <label className="custom-control-label mb-0">Coco Chanel</label>
+                      <label className="custom-control-label mb-0">Sandra Sainz</label>
                     </div>
                     <div className="form-check justify-content-start ">
                       <input className="form-check-input me-2" type="checkbox" value="" id="customCheck4" />
-                      <label className="custom-control-label mb-0">Tom Ford</label>
+                      <label className="custom-control-label mb-0">Maximilam Santos</label>
                     </div>
                     <div className="form-check justify-content-start ">
                       <input className="form-check-input me-2" type="checkbox" value="" id="customCheck5" />
-                      <label className="custom-control-label mb-0">Alexander Wang</label>
+                      <label className="custom-control-label mb-0">Alexander Albon</label>
                     </div>
                     <div className="form-check justify-content-start ">
                       <input className="form-check-input me-2" type="checkbox" value="" id="customCheck6" />
@@ -86,30 +86,7 @@ export default function ProductOverview({
                     <i className="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0 me-3" aria-hidden="true"></i>
                   </button>
                 </h5>
-                <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionArrivals">
-                  <div className="accordion-body text-sm opacity-8">
-                    <div className="form-check justify-content-start ">
-                      <input className="form-check-input me-2" type="checkbox" value="" id="customCheck7" />
-                      <label className="custom-control-label mb-0">Cotton</label>
-                    </div>
-                    <div className="form-check justify-content-start ">
-                      <input className="form-check-input me-2" type="checkbox" value="" id="customCheck8" />
-                      <label className="custom-control-label mb-0">Leather</label>
-                    </div>
-                    <div className="form-check justify-content-start ">
-                      <input className="form-check-input me-2" type="checkbox" value="" id="customCheck9" checked />
-                      <label className="custom-control-label mb-0">Chiffon</label>
-                    </div>
-                    <div className="form-check justify-content-start ">
-                      <input className="form-check-input me-2" type="checkbox" value="" id="customCheck10" />
-                      <label className="custom-control-label mb-0">Crepe</label>
-                    </div>
-                    <div className="form-check justify-content-start ">
-                      <input className="form-check-input me-2" type="checkbox" value="" id="customCheck11" />
-                      <label className="custom-control-label mb-0">Denim</label>
-                    </div>
-                  </div>
-                </div>
+              
               </div>
               <div className="accordion-item">
                 <h5 className="accordion-header" id="headingFifth">
@@ -119,38 +96,7 @@ export default function ProductOverview({
                     <i className="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0 me-3" aria-hidden="true"></i>
                   </button>
                 </h5>
-                <div id="collapseFifth" className="accordion-collapse collapse" aria-labelledby="headingFifth" data-bs-parent="#accordionArrivals">
-                  <div className="accordion-body text-sm opacity-8">
-                    <div className="form-check justify-content-start ">
-                      <input className="form-check-input me-2" type="checkbox" value="" id="customSize1" />
-                      <label className="custom-control-label mb-0">XXS</label>
-                    </div>
-                    <div className="form-check justify-content-start ">
-                      <input className="form-check-input me-2" type="checkbox" value="" id="customSize2" />
-                      <label className="custom-control-label mb-0">XS</label>
-                    </div>
-                    <div className="form-check justify-content-start ">
-                      <input className="form-check-input me-2" type="checkbox" value="" id="customSize3" />
-                      <label className="custom-control-label mb-0">S</label>
-                    </div>
-                    <div className="form-check justify-content-start ">
-                      <input className="form-check-input me-2" type="checkbox" value="" id="customSize4" />
-                      <label className="custom-control-label mb-0">M</label>
-                    </div>
-                    <div className="form-check justify-content-start ">
-                      <input className="form-check-input me-2" type="checkbox" value="" id="customSize5" />
-                      <label className="custom-control-label mb-0">L</label>
-                    </div>
-                    <div className="form-check justify-content-start ">
-                      <input className="form-check-input me-2" type="checkbox" value="" id="customSize6" />
-                      <label className="custom-control-label mb-0">XL</label>
-                    </div>
-                    <div className="form-check justify-content-start ">
-                      <input className="form-check-input me-2" type="checkbox" value="" id="customSize7" />
-                      <label className="custom-control-label mb-0">XXL</label>
-                    </div>
-                  </div>
-                </div>
+              
               </div>
             </div>
           </div>
