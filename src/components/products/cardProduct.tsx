@@ -1,6 +1,5 @@
 import ProductBadge from "./productBadge";
 
-
 interface Props {
   thumb_src: string;
   thumb_alt: string;
@@ -23,7 +22,7 @@ export default function CardProduct({
   position,
 }: Props) {
   const classList = "card-body " + "text-" + position;
-  const url = `Cartoonmania/products/${title}`;
+  const url = `products/${title}`;
 
   return (
     <>
@@ -32,7 +31,7 @@ export default function CardProduct({
           <div className="container-img">
             <img
               className="img-product p-4 "
-              src={thumb_src}
+              src={`${import.meta.env.BASE_URL}` + thumb_src}
               alt={thumb_src}
             />
           </div>
@@ -50,8 +49,7 @@ export default function CardProduct({
                 ${price.toLocaleString()} mxn
               </h4>
             )}
-            <button className="btn btn-dark  "  >Agregar al carrito</button>
-       
+            <button className="btn btn-dark  ">Agregar al carrito</button>
           </div>
         </a>
       </div>
