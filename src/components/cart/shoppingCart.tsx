@@ -55,8 +55,8 @@ export default function ShoppingCart({
                 <OrderSummary 
                   subtotal={subtotal}
                 />
-                <a className="btn btn-dark btn-lg w-100" href='/checkout-form/'>Pagar</a>
-                <a className="btn btn-white btn-lg w-100" href='/'>Continuar comprando</a>
+                <a className="btn btn-dark btn-lg w-100" href={import.meta.env.BASE_URL+ 'checkout-form/'}>Pagar</a>
+                <a className="btn btn-white btn-lg w-100" href={import.meta.env.BASE_URL}>Continuar comprando</a>
                
               </div>
             </div>

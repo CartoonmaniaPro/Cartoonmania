@@ -22,7 +22,7 @@ export default function CardProduct({
   position,
 }: Props) {
   const classList = "card-body " + "text-" + position;
-  const url = `products/${title}`;
+  const url = import.meta.env.BASE_URL + `products/${title}`;
 
   return (
     <>
